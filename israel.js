@@ -16,24 +16,11 @@ function getAsteroids(start, end){
                 console.log("Este Asteroide No es peligroso para la humanidad")
 
             }
-
         });
     })
     .catch((errores) =>{
         console.log(errores)
     })
-
-
-
-
-
-
-
 }
 
-getAsteroids("1990-01-20", "1990-01-20")
-
- 
-
-// conso
-//     module.exports = getAsteroids
+    module.exports = getAsteroids
